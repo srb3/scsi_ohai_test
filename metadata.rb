@@ -14,3 +14,5 @@ end
 
 issues_url 'https://github.com/srb3/scsi_ohai_test/issues'
 source_url 'https://github.com/srb3/scsi_ohai_test'
+
+depends 'ohai'

@@ -15,3 +15,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+cookbook_file 'C:\scsi-vmware.ps1' do
+  source 'scsi-vmware.ps1'
+end
+
+ohai_plugin 'scsipairings' do
+  plugin_name 'scsipairings'
+end

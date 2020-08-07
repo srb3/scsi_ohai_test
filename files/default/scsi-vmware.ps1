@@ -1,0 +1,8 @@
+echo "SizeBytes 60000"
+echo "UsedBytes 200"
+echo "PartitionStartingAddress 01"
+echo "PartitionEndingAddress 59999"
+echo "vmdk_UUID 18730aba-d81d-11ea-8414-349971003692"
+echo "PartitionStyle Dos"
+echo "ComputerName MyWinComp"
+echo "SMBIOS_UUID 112"
